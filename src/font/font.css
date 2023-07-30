@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Louis Light';
+    src: url("./louis_george_caf/Louis\ George\ Cafe\ Light.ttf");
+}
+
+@font-face {
+    font-family: 'Louis';
+    src: url("./louis_george_caf/Louis\ George\ Cafe.ttf");
+}
+
+@font-face {
+    font-family: 'Louis bold';
+    src: url("./louis_george_caf/Louis\ George\ Cafe\ Bold.ttf");
+}
+
+.louis-light{
+    font-family: 'Louis Light';
+}
+
+.louis{
+    font-family: 'Louis';
+}
+
+.louis-bold{
+    font-family: 'Louis bold';
+}
+
+.bebas-text{
+    font-family: 'Bebas Neue', cursive;
+}
+

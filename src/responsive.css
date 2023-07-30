@@ -1,0 +1,141 @@
+
+@media screen and (max-width:480px)
+ {
+   .caption-big {
+    font-size: 6em;
+    text-transform: uppercase;
+    line-height: 70px;
+    text-align: center;
+    }
+
+    .caption-small {
+        text-align: center;
+    }
+
+    .caption-tiny {
+        text-align: center;
+    }
+    .home-circle{
+        height: 350px;
+        width: 350px;
+    }
+
+    .menu-button{
+      transform: scale(0.7);
+    }
+ 
+    .enter-box {
+        transform: translateY(3vh);
+    }
+
+
+    .bottom-home{
+        flex-direction: column;
+    }
+
+    .fixed-title{
+        font-size: 3em;
+        filter: blur(1px);
+    }
+
+    .skill-big{
+        font-size: 4em;
+        text-align: center;
+    }
+
+    .about-height{
+        margin-top: 10vh;
+    }
+
+    .contact-title{
+       font-size: 4em;
+    }
+
+    .contact-big{
+        font-size: 1.6em;
+    }
+
+    .menu-items-control{
+        width: 100vw;
+        align-items: center;
+    }
+
+    .menu-item{
+        font-size: 4em;
+        text-align: center;
+    }
+
+    .bottom-home{
+        padding: 0 10px;
+    }
+
+}
+
+
+@media screen and (max-width:992px) and (min-width:481px) {
+    
+    .caption-big {
+        font-size: 6em;
+        text-transform: uppercase;
+        line-height: 70px;
+        text-align: center;
+        }
+    
+        .caption-small {
+            text-align: center;
+        }
+    
+        .caption-tiny {
+            text-align: center;
+        }
+        .home-circle{
+            height: 350px;
+            width: 350px;
+        }
+    
+        .menu-button{
+          transform: scale(0.7);
+        }
+     
+        .enter-box {
+            transform: translateY(3vh);
+        }
+    
+    
+        .bottom-home{
+            flex-direction: column;
+        }
+    
+        .fixed-title{
+            font-size: 6em;
+            filter: blur(1px);
+        }
+    
+        .skill-big{
+            font-size: 6em;
+            text-align: center;
+        }
+    
+        .about-height{
+            margin-top: 10vh;
+        }
+    
+        .contact-title{
+           font-size: 4em;
+        }
+    
+        .contact-big{
+            font-size: 2.6em;
+        }
+    
+        .menu-items-control{
+            width: 100vw;
+            align-items: center;
+        }
+    
+        .menu-item{
+            font-size: 4em;
+            text-align: center;
+        }
+
+}

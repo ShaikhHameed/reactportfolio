@@ -1,0 +1,59 @@
+.nav-menu{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 90;
+    color: white;
+    background: black;
+    filter: invert(1);
+    overflow: hidden;
+    transform-origin: right;
+    transition: all 0.5s ease-in-out;
+}
+
+.invert-object{
+    filter: invert(1);
+    position: fixed;
+}
+
+.nav-menu.no-width{
+    width: 0;
+    opacity:0;
+}
+
+.nav-menu.active{
+    width: 100%;
+    opacity: 1;
+}
+
+.menu-items-control{
+    float: right;
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.menu-item{
+    font-size: 6em;
+    text-transform: uppercase;
+    font-family: 'Louis Light';
+}
+
+.menu-item:hover{
+    font-weight: 900;
+}
+
+.cross-up.active{
+    transform: rotate(45deg);    
+    transform-origin: left;
+}
+
+.cross-down.active{
+    transform: rotate(-45deg) translate(-12px, -6px);
+    transform-origin: top;
+}
